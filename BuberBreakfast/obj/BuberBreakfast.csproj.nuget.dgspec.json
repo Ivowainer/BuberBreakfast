@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj": {}
+    "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj": {
+    "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
-        "projectName": "BuberBreakfast",
-        "projectPath": "c:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
+        "projectUniqueName": "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
+        "projectName": "BuberBreakfast.Contracts",
+        "projectPath": "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
         "packagesPath": "C:\\Users\\ivanc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\obj\\",
+        "outputPath": "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "http://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,16 +39,66 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
             }
           },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
+        "projectName": "BuberBreakfast",
+        "projectPath": "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
+        "packagesPath": "C:\\Users\\ivanc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ivanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "http://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",

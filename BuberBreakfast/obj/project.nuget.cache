@@ -1,17 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "6NIW8lbt9tQRSYEkgOSY/dOSQSSJ9h7yVgAcYgy/sMRoKVhpCU/ZRo6qUIwTtNvg4zf9ksOuKblywKyI0rHB1w==",
+  "dgSpecHash": "miV2/I6I8eqhmQbVTMUeAgFWysGP3Ph+9K/eVS3ZS7LO3e7bmGTq78x5UKSWazGoOnnzZ8LCAARMnWuZsaGqcw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
-    "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
-    "C:\\Users\\ivanc\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\ivanc\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\ivanc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\ivanc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\ivanc\\Documents\\GitHub\\C#\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
+  "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1803",
