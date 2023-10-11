@@ -16,9 +16,13 @@ public class BreakfastService : IBreakfastService
         return _breakfasts[id];
     }
 
-    public Breakfast UpsertBreakfast(Breakfast breakfast)
+    public void UpsertBreakfast(Breakfast breakfast)
     {
         _breakfasts[breakfast.Id] = breakfast;
-        return breakfast;
+    }
+
+    public void DeleteBreakfast(Guid id)
+    {
+        _breakfasts.Remove(id);
     }
 }
