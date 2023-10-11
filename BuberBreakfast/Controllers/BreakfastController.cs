@@ -74,9 +74,10 @@ public class BreakfastController : ControllerBase
             request.Savory,
             request.Sweet
         );
-        /* _breakfastService.UpsertBreakfast() */
+        _breakfastService.UpsertBreakfast(breakfast);
 
-        return Ok(request);
+        // TODO: Return 201 if a new Breakfast was created
+        return NoContent();
     }
 
     [HttpDelete("{id:guid}")]

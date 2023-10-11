@@ -15,4 +15,10 @@ public class BreakfastService : IBreakfastService
     {
         return _breakfasts[id];
     }
+
+    public Breakfast UpsertBreakfast(Breakfast breakfast)
+    {
+        _breakfasts[breakfast.Id] = breakfast;
+        return breakfast;
+    }
 }
