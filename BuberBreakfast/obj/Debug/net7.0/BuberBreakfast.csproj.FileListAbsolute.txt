@@ -27,3 +27,4 @@ C:\Users\ivanc\Documents\GitHub\C#\BuberBreakfast\BuberBreakfast\obj\Debug\net7.
 C:\Users\ivanc\Documents\GitHub\C#\BuberBreakfast\BuberBreakfast\obj\Debug\net7.0\BuberBreakfast.pdb
 c:\Users\ivanc\Documents\GitHub\C#\BuberBreakfast\BuberBreakfast\obj\Debug\net7.0\BuberBreakfast.genruntimeconfig.cache
 c:\Users\ivanc\Documents\GitHub\C#\BuberBreakfast\BuberBreakfast\obj\Debug\net7.0\ref\BuberBreakfast.dll
+C:\Users\ivanc\Documents\GitHub\C#\BuberBreakfast\BuberBreakfast\bin\Debug\net7.0\ErrorOr.dll
